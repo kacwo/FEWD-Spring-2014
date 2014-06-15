@@ -1,0 +1,122 @@
+body{
+	background: #666;
+	margin: 0;
+
+}
+.frame {
+
+	background: #fff;
+	width: 975px;
+	margin: auto;
+	padding: 20px 0;
+}
+
+.content {
+
+	width: 775px;
+	margin: auto;
+}
+
+h1, h2, h3, h4{
+	font-family: Georgia, sans-serif;
+	line-height: 1;
+}
+
+h1 {
+	color: #930;
+	font-weight: bold;
+	font-size: 42px;
+	margin-bottom: 0px;
+}
+
+h2 {
+	color: #333;
+	font-family: Georgia, sans-serif;
+	font-weight: bold;
+	font-size:28px;
+}
+
+h3 {  
+	color:#333;
+	font-family:Georgia, sans-serif;
+	font-weight:bold;
+	font-size:22px;
+	font-style: italic;
+}
+
+h4{
+	color: #999;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.source{
+	margin-top: 0px;
+}
+
+a{
+	color: #930;
+
+}
+
+p{
+	color: #333;
+	font-family: Helvetica, serif;
+	font-size: 14px;
+	line-height: 1.8;
+}
+
+li {
+	color: #333;
+	font-family: Helvetica, serif;
+	font-size: 14px;
+	line-height: 1.8;
+
+}
+
+hr{	
+	border: 1px solid #e5e5e5; 
+
+}
+
+blockquote{
+	background-color: #f6f6f6;
+	color: #333;
+	font-family: Georgia, sans-serif;
+	font-size: 16;
+	font-style: italic;
+	line-height: 1.8;
+	border-left: 10px solid #e3e3e3;
+	padding: 30px;
+	margin-left: 0px;
+
+}
+
+
+/* unvisited link */
+a:link {
+	color: #930;
+}
+
+/* visited link */
+a:visited {
+	color: #e3e3e3;
+}
+
+/* mouse over link */
+a:hover {
+	color: #333;
+}
+
+/* selected link */
+a:active {
+	color: #930;
+}
+ 
+
+footer p{
+	color: #333;
+	font-size: 10px;
+	font-style:italic;
+
+}
