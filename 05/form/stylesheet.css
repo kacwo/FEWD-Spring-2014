@@ -1,0 +1,27 @@
+p{
+    font-family:Arial, sans-serif;
+    font-size: 18px;
+    color: navy;
+    
+    }
+
+input{
+	font-family:Arial, sans-serif;
+    font-size: 10px;
+    color:#787878;
+
+	}
+
+form{
+
+	background-color: #f0f8ff;
+	border: 1px solid #707070;
+	margin: 0 auto;
+	width: 650px;
+	border-radius: 5px;
+}
+
+textarea{
+		background-color: #b0e0e6;
+
+		}
