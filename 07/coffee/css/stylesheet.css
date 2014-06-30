@@ -1,0 +1,188 @@
+body{
+
+	margin:0;
+	padding:0;
+}
+
+.clearfix:after{
+	clear: both;
+	content: "";
+	display:block;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+.wrapper{
+	margin: 0 auto;
+	width: 940px;
+}
+
+.header{
+	background: #241915 url(../images/beans.jpg) no-repeat ;
+	height:450px;
+	margin:50px auto;
+	position: relative;
+	width:940px;
+}
+
+.logo{
+	background: url(../images/logo.png);
+	height: 103px;
+	left: 50%;
+	margin: -51px 0 0 -135px;
+	overflow:hidden;
+	position: absolute;
+	text-indent: 100%;
+	top: 50%;
+	white-space: nowrap;
+	width: 271px;
+}
+
+.container{
+	margin: 0 auto;
+	width:800px;
+}
+.container-heading p{
+	width: 400px;
+	margin: auto;
+	margin-bottom: 80px;
+}
+
+h1{
+	color:#261913;
+	font-family: Georgia, serif;
+	font-size: 32px;
+	line-height: 1;
+	margin-bottom: 8px;
+	
+}
+
+p{
+	color:#666;
+	font-family: Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+}
+
+.container-heading{
+	text-align: center;
+}
+
+h2{
+	color:#261913;
+	font-family: Georgia, serif;
+	font-size: 20px;
+	line-height: 1;
+	text-transform: uppercase;
+}
+
+h3{
+	color:#6d3b1c;
+	font-family: Georgia, serif;
+	font-size: 28px;
+	line-height: 1;	
+	text-align: center;
+}
+
+.btn{
+	border: 3px solid #603f26;
+	color: #603f26;
+	font-family: Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	padding:10px;
+	text-decoration: none;
+}
+
+.footer{
+	color: #fff;
+	background-color: #241915;
+	font-family: Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 1.5;
+	padding: 50px 0 60px;
+	text-transform: uppercase;
+}
+.copyright{
+	margin:0;
+	}
+
+.social_nav{
+	margin:0;
+}
+
+.social_nav a{
+	color: #fff;
+	text-decoration: none;
+
+}
+
+.icon{
+	background:url(../images/icon.png);
+	height: 45px;
+	margin: 0 auto -30px;
+	overflow: hidden;
+	text-indent: 100%;
+	width: 45px;
+	white-space: nowrap;
+	
+}
+
+.menu{
+	width: 600px;
+	padding:100px;
+	margin: 0 auto;
+	background-color: #f6f6f6;
+}
+.menu-list{
+	color:#666;
+	margin: 0;
+	padding:0;
+
+}
+.menu-list .menu-item{
+	border-bottom:  1px solid #ccc;
+	font-family: Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	list-style: none;
+	margin: 5px 0;
+	padding:10px 0;
+	width: 40%;
+}
+
+.menu-list .menu-item .no-border{
+	border-bottom:none;
+}
+
+.menu-list .menu-item .no-width{
+	width: auto;
+}
+.menu-list .menu-price{
+	width:60px;
+}
+
+.new-price{
+	color:#999;
+	font-size: 12px;
+
+}
+
+.hours{
+margin-top: 80px;
+margin-bottom: 50px;
+}
+
+
+img{
+	padding-right: 125px;
+}
+
+.address{
+	padding-left: 100px;
+}
