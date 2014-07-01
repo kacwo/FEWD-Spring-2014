@@ -155,14 +155,26 @@ h3{
 	padding:10px 0;
 	width: 40%;
 }
+/*
+.no-border{
+	border: none;
+}
 
+li .no-border{
+	border: none;
+}
+.menu-item .no-border{
+	border-bottom: 0;
+}
 .menu-list .menu-item .no-border{
-	border-bottom:none;
+	border-bottom: none;
 }
 
-.menu-list .menu-item .no-width{
-	width: auto;
+.menu-list .menu-item .menu-price .no-border{
+	border-bottom: none;
 }
+
+*/
 .menu-list .menu-price{
 	width:60px;
 }
