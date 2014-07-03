@@ -1,0 +1,21 @@
+{
+  "name": "Gridlock",
+  "version": "3.1.0",
+  "description": "A responsive CSS grid system. Part of the Formstone Library.",
+  "author": {
+    "name": "Ben Plum",
+    "email": "mr@benplum.com",
+    "url": "http://www.benplum.com"
+  },
+  "license": "MIT",
+  "homepage": "http://formstone.it/gridlock/",
+  "main": [
+    "fs.gridlock-base.css",
+    "fs.gridlock-12.css"
+  ],
+  "ignore": [
+    "*.jquery.json",
+    "Gruntfile.js",
+    "src/"
+  ]
+}
