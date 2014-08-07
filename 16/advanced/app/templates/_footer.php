@@ -9,7 +9,7 @@
 
 
 			<div class="mobile-full tablet-4 desktop-8 footer_nav">				
-				<a href="support.php" class="footer_link">Support</a>
+				<a href="support" class="footer_link">Support</a>
 				<a href="privacy.php" class="footer_link">Privacy &amp; Terms</a>
 				<a href="index.php" class="copyright_link">&copy; 2014 Picticious Pro</a>
 			</div>

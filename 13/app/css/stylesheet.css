@@ -238,13 +238,13 @@ a{
 }
 
 .footer .copyright_link{
-	color:#777;
-	font-size: 16px;
-	display: inline-block;
-	margin: 0 10px;
+	
+	margin:  10px 0;
 }
 
-
+.footer_nav{
+	padding-top: 25px;
+}
 
 /*.social_nav{
 	margin: 0 auto;
@@ -365,7 +365,7 @@ a{
 }
 @media screen and (min-width: 740px) and (max-width: 980px){
 
-.grid_image.tablet{
+.grid_image.tablet_margin{
 		margin-top: 70px;
 	}
 

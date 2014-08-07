@@ -1,6 +1,7 @@
 <?
+session_start();
 
-	$www_root = "http://localhost:8888/advanced/";
+	$www_root = "http://localhost:8888/advanced/app/";
 
 	// Get requested URL
 	$current_url = $_GET["request_url"];
@@ -13,7 +14,7 @@
 
 	ob_start();
 
-	include "templates/_header.php";
+	
 
 	if ($route["commands"][0] == "") {
 		unset($route["commands"]);
@@ -25,10 +26,12 @@
 		include "templates/_404.php";
 	}
 
-	include "templates/_footer.php";
-
 	$page_content = ob_get_clean();
-	
+
+	include "templates/_header.php";
+
+	echo $page_content;
+	include "templates/_footer.php";
 
 	// Functions
 	function routeRecursive($base = "templates/", $route, $level = 0) {

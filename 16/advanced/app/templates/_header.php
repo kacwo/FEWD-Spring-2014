@@ -6,10 +6,12 @@
 
     	 <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,100|Roboto+Condensed:400,300' rel='stylesheet' type='text/css'>
 
-     <link href="../bower_components/normalize-css/normalize.css" rel="stylesheet">
-    	 <link href="../bower_components/Gridlock/fs.gridlock.css" rel="stylesheet">
-    	 <link href="../bower_components/Boxer/jquery.fs.boxer.css" rel="stylesheet">
-    	 <link rel="stylesheet" href="../css/stylesheet.css">
+     	<link href="<?=$www_root?>bower_components/normalize-css/normalize.css" rel="stylesheet">
+    	<link href="<?=$www_root?>bower_components/Gridlock/fs.gridlock.css" rel="stylesheet">
+    	<link href="<?=$www_root?>bower_components/Boxer/jquery.fs.boxer.css" rel="stylesheet">
+    	<link href="<?=$www_root?>css/form.css" rel="stylesheet">
+		<link href="<?=$www_root?>js/form.js" rel="stylesheet">
+		<link rel="stylesheet" href="<?=$www_root?>css/stylesheet.css">
     	<!-- 
     	<link href="css/site.min.css" rel="stylesheet"> -->
 
